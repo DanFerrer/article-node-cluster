@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "numCPUS=12 node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -22,10 +23,12 @@
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.18.0",
+    "body-parser": "^1.15.2",
     "cluster": "^0.7.7",
     "eslint": "^3.12.2",
     "express": "^4.14.0",
     "express-limiter": "^1.6.0",
+    "multer": "^1.2.1",
     "os": "^0.1.1",
     "redis": "^2.6.3",
     "redis-server": "^1.1.0"
